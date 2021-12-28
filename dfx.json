@@ -3,19 +3,6 @@
     "stable_hashmap_test_dfx": {
       "main": "src/stable_hashmap_test_dfx/main.mo",
       "type": "motoko"
-    },
-    "stable_hashmap_test_dfx_assets": {
-      "dependencies": [
-        "stable_hashmap_test_dfx"
-      ],
-      "frontend": {
-        "entrypoint": "src/stable_hashmap_test_dfx_assets/src/index.html"
-      },
-      "source": [
-        "src/stable_hashmap_test_dfx_assets/assets",
-        "dist/stable_hashmap_test_dfx_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
